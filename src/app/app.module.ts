@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { TodoInputComponent } from './componets/todo-input/todo-input.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    TodoInputComponent
   ],
   imports: [
     BrowserModule
