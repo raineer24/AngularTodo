@@ -7,10 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TodoInputComponent implements OnInit {
 
-	private todoText: string;
-  constructor() {
-  	this.todoText = ''; 
-  }
+  constructor() { }
 
   ngOnInit() {
   }
