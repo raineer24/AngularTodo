@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TodoService } from './services/todo.service';
 import { TodoInputComponent } from './components/todo-input/todo-input.component';
+import { TodoItemComponent } from './components/todo-item/todo-item.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { TodoInputComponent } from './components/todo-input/todo-input.component
     AppComponent,
     HeaderComponent,
     TodoInputComponent,
+    TodoItemComponent,
   ],
   imports: [
     BrowserModule,
