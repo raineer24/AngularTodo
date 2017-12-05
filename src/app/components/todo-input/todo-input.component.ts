@@ -16,4 +16,10 @@ export class TodoInputComponent implements OnInit {
   ngOnInit() {
   }
 
+  private addTodo(): void {
+  	console.log("TODO: ", this.todoText);
+  	this.todoText = '';
+
+  }
+
 }
